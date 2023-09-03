@@ -4,31 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-    <test>
+    <nav>
         <div class="name"><h2>CHINTALA NIRUPAM REDDY</h2></div>
-        <div class="bg-img">
-        <div class="profile">Contact Me <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <div class="profile">Profile <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
             <a href= "mailto:nirupamreddy27012003@gmail.com" target="_blank" class="fa fa-google"></a>
             <a href="https://instagram.com/_nirupam_01?igshid=MzNlNGNkZWQ4Mg==" target="_blank" class="fa fa-instagram" ></a>
             <a href="https://www.linkedin.com/in/nirupam-reddy-chintala-a36053208" target="_blank" class="fa fa-linkedin"></a></div>
-        <ul class="test-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
+        <ul class="nav-top">
+            <li><a href="#self">About</a></li>
+            <li><a href="#languages">Skills</a></li>
+            <li><a href="#tasks">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
             <li><a href="Nirupam's resume.pdf">Resume</a></li>
             <li><a href="certificates.pdf">Certifications</a></li>
         </ul>
-    </test>
+    </nav>
+
     <header>
         <h1>&#127775;  Welcome to My Portfolio  &#127775;</h1>
     </header>
 
-    <section id="about">
+    <section id="self">
         <h2>About Me  &#128519;</h2>
-        <div class="about-content">
+        <div class="self-content">
             <p>As a fourth-year computer science and engineering student, I'm pursing my bachelor's of Technology from St. Martins Engineering College.
 
                 I am interested in solving techincal problems and researching. I am proficient in C, Java, Python, Html, CSS,JavaScript.
@@ -39,9 +40,9 @@
         </div>
     </section>
 
-    <section id="skills">
+    <section id="languages">
         <h2>Skills  &#128512;</h2>
-        <ul class="skills-list">
+        <ul class="languages-list">
             <li>C</li>
             <li>R-programming</li>
             <li>Java</li>
@@ -53,23 +54,39 @@
             <li>PHP</li>
         </ul>
     </section>
-    <section id="projects">
+
+    <section id="tasks">
         <h2>Projects  &#128526;</h2>
-        <div class="project">
-            <h3>1) Portfolio</h3>
-            <p>it gives information me and my accomplishments</p>
-            <a href="https://nirupam-28.github.io/myportfolio/">Portfolio</a>
-            <h3>2) temperature converter</h3>
-            <p>which is used to convert from Celsius to Fahernheit and Fahernheit to Celsius and also in terms of kelvin temperature</p>
-            <a href="https://nirupam-28.github.io/Tempature-Converter/">Temperature Converter</a>
-            <h3>3) NETFLIX Homepage</h3>
+        <div class="task">
+            <h3>Portfolio</h3>
+            <p>1. A collection of my skills, projects and accomplishments.</p>
+            <a href="https://nirupam-28.github.io/myportfolio/">my-portfolio</a>
+            <h3>2. Temperature Converter</h3>
+            <p>It converts the Temperature from celsius to fahernheit, Kelvin and vice versa.</p>
+            <a href="https://nirupam-28.github.io/Temperatureconverter/">Tempature-Converter</a>
+            <h3>3. NETFLIX Homepage</h3>
             <p>NETFLIX is an OTT platform where we can watch movies and series. </p>
             <a href="https://nirupam-28.github.io/netflix-homepage/">NETFLIX</a>
         </div>
     </section>
-        </div>
+
+    <section id="contact">
+        <h2>Contact Me  &#128516;</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
     <footer>
         <p>&copy; 2023 Chintala Nirupam Reddy</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
