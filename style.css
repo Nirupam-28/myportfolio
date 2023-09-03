@@ -14,6 +14,8 @@ body {
 .name{
     font-size:larger;
     font-weight:bold;
+    background-color:#fffc00;
+    padding:30px;
 }
   /* Navigation Bar */
   test {
