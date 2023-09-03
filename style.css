@@ -83,7 +83,7 @@ body {
   }
   #projects {
 
-    padding: 40px;
+    padding: 60px;
     text-align: center;
   }
   
@@ -92,7 +92,7 @@ body {
   }
   
   .project a {
-    display: block;
+    display: flex;
     margin-top: 15px;
   }
 
