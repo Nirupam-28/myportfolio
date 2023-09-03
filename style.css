@@ -59,7 +59,7 @@ body {
   #about {
   
     padding: 60px;
-    text-align: left;
+    text-align: center;
   }
   
   
@@ -68,7 +68,7 @@ body {
   
     padding: 60px;
     background-color: #ffffe0;
-    text-align: left;
+    text-align: center;
   }
   
   .skills-list {
@@ -84,7 +84,7 @@ body {
   #projects {
 
     padding: 60px;
-    text-align: left;
+    text-align: center;
   }
   
   .project {
