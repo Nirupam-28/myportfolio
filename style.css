@@ -10,6 +10,11 @@ body {
     height:75vmax;
 
 }
+
+.name{
+    font-size:larger;
+    font-weight:bold;
+}
   /* Navigation Bar */
   test {
     background-color:#fffc00;
