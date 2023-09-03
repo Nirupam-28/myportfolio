@@ -1,130 +1,155 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-  }
-  /*background-image*/
-  .bg-img{
-    background-image: url(white.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height:75vmax;
-
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+/* Navigation Bar */
+nav {
+  background-color: #fffc00;
+  color: #333;
+  padding: 20px;
 }
 
 .name{
-    font-size:larger;
-    font-weight:bold;
-    background-color:#fffc00;
-    padding:30px;
+  font-size:large;
+  font-weight: bold;
 }
-  /* Navigation Bar */
-  test {
-    background-color:#fffc00;
-    color: #333;
-    padding: 0;
-  }
-  
-  .profile{
-    font-size: 28px;
-    font-weight: bold;
-    margin: right 25px;;
-    text-align: right;
-  }
-  
-  .test-links {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-  }
-  
-  .test-links li { 
-    margin-right: 30px;
-  }
-  
-  .test-links li a {
-    color: #333;
-    text-decoration: none;
-  }
-  
-  /* Hero Section */
-  header {
-    background-color: #ffffe0;
-    padding: 45px;
-    text-align: center;
-    border: 5px;
-  }
-  
-  /* About Me Section */
-  #about {
-  
-    padding: 60px;
-    text-align: center;
-  }
-  
-  
-  /* Skills Section */
-  #skills {
-  
-    padding: 60px;
-    background-color: #ffffe0;
-    text-align: center;
-  }
-  
-  .skills-list {
-    list-style-type: none;
-    padding: 0;
-    color: black;
-  }
-  
-  .skills-list li {
-    display: inline-block;
-    margin: 0 15px;
-  }
-  #projects {
 
-    padding: 60px;
-    text-align: center;
-  }
-  
-  .project {
-    margin-bottom: auto;
-  }
-  
-  .project a {
-    display: flex;
-    margin-top: 15px;
-  }
+.profile{
+  font-size: 24px;
+  font-weight: bold;
+  margin: right 20px;;
+  text-align: right;
+}
 
- 
-  
-  /* Footer */
-  footer {
-    background-color: #333;
-    color: #fff;
-    padding: 5px;
-    text-align: center;
-  }
-  .fa {
-    padding: 15px;
-    font-size: 40px;
-    width: 25px;
-    text-align: center;
-    text-decoration: none;
-    margin: 8px 5px;
-  }
-  .fa:hover {
-    opacity: 0.8;
-  }
-  .fa-google{
-    background:pink;
-    color: blue;
-  }
-  .fa-instagram {
-    background: #dd4b39;
-    color: white;
-  }
-  .fa-linkedin {
-    background: #007bb5;
-    color: white;
-  }
+.nav-top {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-top li { 
+  margin-right: 20px;
+}
+
+.nav-top li a {
+  color: #333;
+  text-decoration: none;
+}
+
+/* Hero Section */
+header {
+  background-color: #ffffe0;
+  padding: 40px;
+  text-align: center;
+  border: 2px;
+}
+
+/* About Me Section */
+#self {
+
+  padding: 50px;
+  text-align: center;
+}
+
+
+/* Skills Section */
+#languages {
+
+  padding: 50px;
+  background-color: #ffffe0;
+  text-align: center;
+}
+
+.languages-list {
+  list-style-type: none;
+  padding: 0;
+  color: black;
+}
+
+.languages-list li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+/* Projects Section */
+#tasks {
+
+  padding: 50px;
+  text-align: center;
+}
+
+.task {
+  margin-bottom: 20px;
+}
+
+.task a {
+  display: block;
+  margin-top: 10px;
+}
+
+/* Contact Section */
+#contact {
+  background-color: #ffffe0;
+  padding: 50px;
+  text-align: left;
+}
+
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+#contact-form label {
+  margin-bottom: 10px;
+
+}
+
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+#contact-form button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-google{
+  background:pink;
+  color: blue;
+}
+.fa-instagram {
+  background: #dd4b39;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
