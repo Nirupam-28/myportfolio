@@ -83,6 +83,19 @@ header {
   margin-bottom: 20px;
 }
 
+/* Internships*/
+#interns {
+
+  padding: 50px;
+  background-color: #ffffe0;
+  text-align: center;
+}
+
+.intern {
+  margin-bottom: 20px;
+}
+
+
 .task a {
   display: block;
   margin-top: 10px;
@@ -90,7 +103,7 @@ header {
 
 /* Contact Section */
 #contact {
-  background-color: #ffffe0;
+  background-color: white;
   padding: 50px;
   text-align: left;
 }
@@ -153,3 +166,9 @@ footer {
   color: white;
 }
 
+.pic{
+
+  border-radius: 4px;
+  padding: 5px;
+  width: 75px;
+}
